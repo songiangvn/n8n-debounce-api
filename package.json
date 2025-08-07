@@ -1,6 +1,7 @@
 {
-  "name": "n8n-debounce-api",
-  "version": "1.0.0",
-  "main": "api/debounce.js",
-  "type": "module"
+  "name": "debounce-api",
+  "type": "module",
+  "dependencies": {
+    "@upstash/redis": "^1.20.0"
+  }
 }
